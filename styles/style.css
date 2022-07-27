@@ -3,8 +3,19 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.header{
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content,
+.header,
+.footer{
     background-color: #1F2937;
+}
+
+.header{
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -13,8 +24,11 @@ body{
 
 .header .logo{
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: bold;
+}
+
+.header .logo, h1{
+    color: #F9FAF8;
 }
 
 .links{
@@ -27,6 +41,48 @@ body{
 
 a{
     text-decoration: none;
+}
+
+.placeholder{
+    height: auto;
+    width:400px;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.content .all{
+    display: flex;
+    max-width: 1128px;
+    gap: 60px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+    
+a, .content .subtext{
     color: #E5E7EB;
     font-size: 18px;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    font-weight: bold;   
+    font-size: 18px;
+    padding: 8px 40px;  
+    border-radius: 8px;
+}
+
+.placeholder{
+    height: 290px;
+    width: auto;
+    border-radius: 12px;
 }
