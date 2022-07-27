@@ -81,8 +81,24 @@ button{
     border-radius: 8px;
 }
 
-.placeholder{
+.content .placeholder{
     height: 290px;
     width: auto;
     border-radius: 12px;
+}
+/* images of some information */
+.information .image{
+    height: 200px;
+    width: auto;
+}
+
+.information .title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.information .container{
+    display: flex;
 }
