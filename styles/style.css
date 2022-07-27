@@ -90,15 +90,30 @@ button{
 .information .image{
     height: 200px;
     width: auto;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+
+.information{
+    text-align: center;
 }
 
 .information .title{
-    text-align: center;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin-bottom: 15px;
 }
 
 .information .container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    min-height: 400px;
+}
+
+.information .element{
+    max-width:350px;
 }
